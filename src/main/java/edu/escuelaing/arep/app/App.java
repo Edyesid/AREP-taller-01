@@ -1,9 +1,16 @@
 package edu.escuelaing.arep.app;
 
 import java.io.*;
-
-public class App 
-{
+/**
+ * @author Edwin Rodriguez
+ * Clase principal de lectura de archivos y impresion de los datos calculados
+ *
+ */
+public class App {
+	/**
+	 * Imprime los datos calculador y especifica que archivos leer para el respectivo calculo
+	 * @param args
+	 */
     public static void main( String[] args ) {
     	App app = new App();
     	LinkedList list1 = app.Reader("table1/column1.txt");
@@ -18,6 +25,11 @@ public class App
     	
     }
     
+    /**
+     * Lee los valores de un archivo dada una ruta especifica y crea la lista doblemente encadenada con los valores del archivo
+     * @param path es la ruta del archivo
+     * @return la lista doblemente encadenada con los datos
+     */
     public LinkedList Reader (String path) {
     	File file = null;
     	FileReader fileReader = null;

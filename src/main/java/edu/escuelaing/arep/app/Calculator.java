@@ -10,7 +10,10 @@ public class Calculator {
 		this.list = list;
 		this.len = list.getSize();
 	}
-	
+	/**
+	 * Calcula la media de la lista encadenada que recibe cuando se crea la calculadora
+	 * @return mean (media de los valores de la lista encadenada)
+	 */
 	public double Mean() {
 		double sum = 0;
 		double mean = 0;
@@ -20,9 +23,13 @@ public class Calculator {
 			node = list.Next(node);
 		}
 		mean = sum / len;
+		System.out.println(Math.round(mean * 100.0) / 100.0);
 		return Math.round(mean * 100.0) / 100.0;
 	}
-	
+	/**
+	 * Calcula la desviacion estandar de la lista encadenada, utilizando el metodo de calcular la media de la misma lista encadenada
+	 * @return dev (desviacion estandar)
+	 */
 	public double Dev() {
 		double dev = 0;
 		double sum = 0;
@@ -34,6 +41,7 @@ public class Calculator {
 		}
 		
 		dev = Math.sqrt(sum / (len - 1));
+		System.out.println(Math.round(dev * 100.0) / 100.0);
 		return Math.round(dev * 100.0) / 100.0;
 	}
 	
