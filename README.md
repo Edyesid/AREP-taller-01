@@ -30,9 +30,18 @@ Para poder ejecutar el programa introduce el siguiente comando
 
 ## Pruebas
 
-![prueba1](images/prueba1.jpg)
+
 
 ## Ejemplos
+
+Se muestran los dos ejemplos que estan en el pdf del taller
+
+
+
+![tabla](images/tabla.png)
+![resultado](images/resultado.png)
+
+![prueba1](images/prueba1.png)
 
 ## Construido
 
