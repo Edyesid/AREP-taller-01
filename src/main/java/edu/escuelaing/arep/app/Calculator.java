@@ -23,7 +23,6 @@ public class Calculator {
 			node = list.Next(node);
 		}
 		mean = sum / len;
-		System.out.println(Math.round(mean * 100.0) / 100.0);
 		return Math.round(mean * 100.0) / 100.0;
 	}
 	/**
@@ -41,7 +40,6 @@ public class Calculator {
 		}
 		
 		dev = Math.sqrt(sum / (len - 1));
-		System.out.println(Math.round(dev * 100.0) / 100.0);
 		return Math.round(dev * 100.0) / 100.0;
 	}
 	
