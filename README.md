@@ -31,15 +31,18 @@ Para poder ejecutar el programa introduce el siguiente comando
 ## Pruebas
 
 
+Se muestran los dos ejemplos que estan en el pdf del taller 
+[![CircleCI](https://circleci.com/gh/Edyesid/AREP-taller-01.svg?style=svg)](https://circleci.com/gh/Edyesid/AREP-taller-01)
 
-## Ejemplos
-
-Se muestran los dos ejemplos que estan en el pdf del taller
-
-
+Se usan los siguientes datos (prueba por cada columna)
 
 ![tabla](images/tabla.png)
+
+Para cada columna se deberian obtener los siguientes resultados
+
 ![resultado](images/resultado.png)
+
+Finalmente estos son los datos obtenidos del programa, los cuales concuerda con los de la tabla anterior
 
 ![prueba1](images/prueba1.png)
 
@@ -53,4 +56,4 @@ Edwin Yesid Rodriguez Maldonado
 
 ## Licencia
 
-[![CircleCI](https://circleci.com/gh/Edyesid/AREP-taller-01.svg?style=svg)](https://circleci.com/gh/Edyesid/AREP-taller-01)
+Este programa es de uso libre, puede ser usado por cualquier persona
