@@ -28,7 +28,7 @@ public class Node {
 	
 	/**
 	 * Retorna la referencia a su nodo siguiente
-	 * @return tail
+	 * @return tail (cola del nodo)
 	 */
 	public Node getTail() {
 		return tail;
@@ -36,7 +36,7 @@ public class Node {
 	
 	/**
 	 * Retorna la referencia a su nodo anterior
-	 * @return
+	 * @return head (cabeza del nodo)
 	 */
 	public Node getHead() {
 		return head;

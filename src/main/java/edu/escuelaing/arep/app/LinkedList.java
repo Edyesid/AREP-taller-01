@@ -8,11 +8,9 @@ public class LinkedList {
 	private Node first;
 	private Node last;
 	private int size;
+
 	/**
 	 * Constructor de la clase LinkedList
-	 * @ first es el primer nodo de la lista
-	 * @ last es el ultimo nodo de la lista
-	 * @ size es la longitud de la lista 
 	 */
 	public LinkedList() {
 		
@@ -35,14 +33,6 @@ public class LinkedList {
 			last = node;
 		}
 		this.size += 1;
-	}
-	
-	/**
-	 * 
-	 * @param iterator
-	 */
-	public void Delete(int iterator) {
-		
 	}
 	
 	/**

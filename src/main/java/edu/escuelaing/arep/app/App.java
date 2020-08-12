@@ -9,7 +9,7 @@ import java.io.*;
 public class App {
 	/**
 	 * Imprime los datos calculador y especifica que archivos leer para el respectivo calculo
-	 * @param args
+	 * @param args argumentos
 	 */
     public static void main( String[] args ) {
     	App app = new App();
