@@ -54,4 +54,4 @@ Edwin Yesid Rodriguez Maldonado
 
 ## Licencia
 
-Este programa es de uso libre, puede ser usado por cualquier persona
+GNU GENERAL PUBLIC LICENSE
